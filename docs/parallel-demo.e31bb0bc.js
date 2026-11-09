@@ -6674,6 +6674,7 @@ var maxWorkers = navigator.hardwareConcurrency;
 document.getElementById("workersRange").setAttribute("max", maxWorkers);
 document.getElementById("workersRange").setAttribute("value", maxWorkers);
 var maxImages = imageNames.length;
+// add comment to override the existing deploy
 console.log("IMAGE NAMES LENGTH:", String(maxImages))
 document.getElementById("imagesRange").setAttribute("max", maxImages);
 
