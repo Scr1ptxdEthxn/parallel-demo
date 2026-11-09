@@ -6546,7 +6546,7 @@ for (let k = 0; k < 3; k++) {
     imageNames.append(imageNames[m])
   }
 }
-
+//
 var numWorkers, numImages, chart, pool, startTime, endTime;
 var imageNodes = [];
 
